@@ -1,0 +1,23 @@
+# Python dependencies for testing Azure and GitHub Copilot integration
+
+# Core dependencies
+python-dotenv==1.0.0
+
+# Azure SDK (optional, for real Azure integration)
+# Uncomment if you want to test with actual Azure services
+# azure-storage-blob==12.19.0
+# azure-keyvault-secrets==4.7.0
+# azure-identity==1.15.0
+# azure-cosmos==4.5.1
+
+# Testing dependencies
+pytest==7.4.3
+pytest-cov==4.1.0
+
+# Code quality
+black==23.12.1
+flake8==6.1.0
+pylint==3.0.3
+
+# Type checking
+mypy==1.7.1
